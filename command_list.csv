@@ -1,0 +1,35 @@
+    1  git config --global user.name "Olena"
+    2  git config --global user.email "твій_email@gmail.com"lelikbolik1528@gmail.com"
+git config --list
+    3  GfxDxlolkax@Paradoxica MINGW64 ~/Documents/QA_GIT
+    4  $ git config --list
+    5  git config --global user.email "lelikbolik1528@gmail.com"
+    6  $ git config --list
+    7  git config --list
+    8  git clone https://github.com/lelikbolik1528-lang/HW_10.git
+    9  cd HW_10
+   10  git status
+   11  touch text_ignore.txt
+   12  git status
+   13  git status
+   14  git add .
+   15  git commit -m "Add .gitignore and ignore text_ignore.txt"
+   16  git log --oneline
+   17  touch main_test.txt
+   18  add .
+   19  git commit -m "Add main_test.txt"
+   20  git add .
+   21  git commit -m "Add main_test.txt"
+   22  git checkout -b develop
+   23  git branch
+   24  touch develop_test.txt
+   25  git add .
+   26  git commit -m "Add develope_test.txt"
+   27  echo "just a small change" >> develop_test.txt
+   28  git status
+   29  git add .
+   30  git commit -m "Update develop_test.txt"
+   31  git checkout main
+   32  git merge develop
+   33  git log --oneline
+   34  history > command_list.csv
